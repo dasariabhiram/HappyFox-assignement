@@ -1,0 +1,44 @@
+/* EmployeeList.css */
+.employee-list {
+  max-width: 300px;
+  border-right: 1px solid #ddd;
+  padding-right: 20px;
+}
+
+.filters {
+  margin-bottom: 15px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select {
+  appearance: none; /* Remove default arrow in modern browsers */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #e5e5e5;
+}
